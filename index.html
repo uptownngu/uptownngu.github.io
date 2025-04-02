@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상담 페이지</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            background-image: url('/mnt/data/A_website_homepage_in_Korean_language_features_a_b.png'); /* 배경 이미지 경로 */
+            background-size: cover; /* 배경 이미지가 화면을 꽉 채우도록 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Poppins', sans-serif;
+        }
+        .menu-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .menu-button {
+            padding: 20px 40px;
+            font-size: 28px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+            width: 300px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+        .menu-button:nth-child(1) { background-color: #ffadad; }
+        .menu-button:nth-child(2) { background-color: #ffd6a5; }
+        .menu-button:nth-child(3) { background-color: #caffbf; }
+        .menu-button:hover { opacity: 0.8; }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0m7Ft5mh8nh0JvCrj8uTmrkunJp7kWYgsi7iYakCdkXycug/viewform?usp=dialog" class="menu-button">현PD 상담신청</a>
+        <a href="https://t.me/pdhyun" class="menu-button">텔레그램 문의하기</a>
+        <a href="https://open.kakao.com/o/sJ8Co2oh" class="menu-button">카카오톡 문의하기</a>
+    </div>
+</body>
+</html>
